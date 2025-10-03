@@ -185,6 +185,7 @@
     .main {
       display: flex;
       flex-direction: column-reverse;
+      align-items: center;
       gap: 20px;
       .main-text {
         display: flex;
@@ -220,6 +221,7 @@
     .main-right {
       display: flex;
       flex-direction: column-reverse;
+      align-items: center;
       gap: 20px;
       .mr-img {
         img {
@@ -234,11 +236,10 @@
     .main-bottom {
       display: flex;
       flex-direction: column;
+      align-items: center;
       .mb-img {
-        img {
-          max-width: 500px;
-          width: 100%;
-        }
+        max-width: 400px;
+        width: 100%;
       }
       .mb-cards {
         .card-2 {
@@ -252,6 +253,15 @@
     .main-left {
       display: flex;
       flex-direction: column-reverse;
+      align-items: center;
+      .ml-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 400px;
+        }
+      }
     }
   }
 
